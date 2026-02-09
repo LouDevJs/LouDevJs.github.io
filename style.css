@@ -13,15 +13,18 @@
 body {
     font-size: 15pt;
     /**background: #124a88;**/
-    background: linear-gradient(to top, #777, #999, #aaa);
+    /**background: linear-gradient(to top, #777, #999, #aaa);**/
     width: 100vw; height: 100vh;
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    
+
 }
 i{
     color: #333;
 }
 #content{
     width: 100%; height: 100%;
-    overflow: hidden;
+    overflow: Hidden;
 }
 .top{
     padding: 20px 16px;
@@ -30,15 +33,15 @@ i{
 }
 .top h1{
     font-size: 1.5em;
-    color: #111;
+    color: #e0e0e0;
 }
 #main {
     width: 100%;
-    height: 100%;
+    
     
 }
 .info {
-    margin: 100px auto;
+    margin: 80px auto;
     width: 300px; 
     background: rgba(255, 255, 255, .2);
     border-radius: 8px;
@@ -47,7 +50,7 @@ i{
     position: relative;
 }
 .info label {
-    color: #333;
+    color: #111;
     font-size: .7em;
 }
 .list{
@@ -55,11 +58,11 @@ i{
     padding: 5px 10px;
 }
 .list li{
-    padding: 10px !important;
+    padding: 14px !important;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ccc;
-    background: rgba(230, 230, 230, .3);
+   /** border-bottom: 1px solid #ccc;**/
+    background: rgba(230, 230, 230, .4);
     border-radius: 8px;
     margin-top: 5px;
 }
@@ -68,6 +71,10 @@ i{
     font-size: .8em;
     margin-left: 10px;
     cursor: pointer;
+    color:#e0e0e0;
+}
+.list li a:hover{
+    color: #000;
 }
 
 .btns{
@@ -79,12 +86,13 @@ i{
 }
 .btns a{
     text-decoration: none;
-    padding: 10px 1.5rem;
-    background: rgba(255, 255, 255, .2);
+    padding: 14px 1.3rem;
+    background: rgba(255, 255, 255, .7);
     box-shadow: 2px 3px 4px rgba(0, 0, 0, .2);
-    border-radius: 24px;
+    border-radius: 8px;
     color: #111;
     cursor: pointer;
+    font-size: .9em;
 }
 
 .descripcion{
@@ -95,7 +103,7 @@ i{
 }
 .descripcion p{
     font-size: .7em;
-    color: #eee;
+    color: #e0e0e0;
     padding: 0 10px;
 }
 .pic{
